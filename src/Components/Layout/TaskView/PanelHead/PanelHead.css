@@ -1,0 +1,35 @@
+.PanelHead {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    padding: 0px 14px;
+}
+
+.PanelTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #795548;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.PanelTab:hover {
+    color: black;
+    background-color: #c0a69c;
+}
+
+.Active {
+    color: black;
+    background-color: #c0a69c;
+}

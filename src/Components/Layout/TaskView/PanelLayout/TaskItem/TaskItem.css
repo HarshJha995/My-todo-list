@@ -1,0 +1,58 @@
+.TaskRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    padding: 20px;
+    margin-right: 8px;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+}
+
+label, .TaskItem {
+    flex:2;
+    margin:auto;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+label {
+    cursor: pointer;
+}
+
+.Button {
+    display: inline-block;
+    margin-right: 14px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+@keyframes strike{
+    0%   { width : 0; }
+    100% { width: 100%; }
+}
+.Strike {
+    position: relative;
+    cursor: not-allowed;
+}
+.Strike::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgb(228, 154, 154);
+    animation-name: strike;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    cursor: not-allowed;
+}

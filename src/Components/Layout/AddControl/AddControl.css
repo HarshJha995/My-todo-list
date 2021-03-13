@@ -1,0 +1,23 @@
+.AddControl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 20px;
+}
+
+.Input {
+    width: 30%;
+    padding: 20px;
+}
+
+.Button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+    color: #5C9210;
+}
