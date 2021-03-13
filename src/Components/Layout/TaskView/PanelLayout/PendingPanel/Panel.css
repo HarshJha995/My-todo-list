@@ -1,0 +1,28 @@
+.PendingPanel {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #e7d1b7;
+    border-radius: 15px;
+}
+
+.PendingPanel ul {
+    padding-left: 0;
+}
+
+.PendingPanel ul li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.PendingPanel ul li:hover{
+    cursor: pointer;
+    background-color: #eedecc;
+}

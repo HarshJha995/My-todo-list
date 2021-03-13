@@ -1,0 +1,21 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: burlywood;
+}
+
+.Logo {
+  background-color: transparent;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.Brand {
+  font-weight: 800;
+  font-size: 2rem;
+  margin: auto 3px;
+}
