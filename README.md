@@ -1,3 +1,15 @@
+# Basic TO-DO list implented using React. 
+
+User can add tasks, edit or delete them and can mark them as completed. He can view completed tasks in another pane.
+Hosted on Github Pages @ [https://harshjha995.github.io/My-todo-list/]
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
